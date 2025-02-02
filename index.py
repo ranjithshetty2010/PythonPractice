@@ -18,8 +18,7 @@ def main():
           data =  pd.read_excel(uploadfile)
          
         st.subheader("file data")
-        st.dataframe(data.head())
-        
+        st.dataframe(data.head())      
 
 
     else:
